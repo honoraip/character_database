@@ -1,0 +1,235 @@
+/* Basic page settings */
+body {
+    background-color: #FFFFFF;
+}
+
+/* Banner style */
+#banner {
+    background-color: #f0f0f5;
+    font-family: Garamond, "Times New Roman", serif;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border: solid 10px #380B61;
+}
+
+#banner h1 {
+    color: #380B61;
+    font-size: 50px;
+    padding-left: 1em;
+    text-align: left;
+}
+
+#banner h2 {
+    color: #380B61;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* Index page image style */
+#logo {
+    width: 80%;
+    border: solid 10px #380B61;
+    background: #380B61;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+#logo img {
+    height: 500px;
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    padding-top: 2em;
+}
+
+#logo a{
+    color: #d1d1e0;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#logo a:hover {
+    color: #5d5d89;
+}
+
+/*Form styling */
+
+#form {
+    overflow: hidden;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f0f0f5;
+    border: solid 10px #f0f0f5;
+}
+
+
+.inputstyle input[type=text] {
+    width: 300px;
+    display: block;
+    height: 26px;
+    font-size: 26px;
+    background-color:#380B61;
+    color: #f0f0f5;
+    font-family: Garamond, "Times New Roman", serif;
+}
+
+.inputstyle input[type=radio] {
+    width: 20px;
+    height: 20px;
+}
+
+/* Code adapted and edited from http://jsfiddle.net/YvCHW/6932/ */
+.inputstyle select {
+    background-color:#380B61;
+    width: 300px;
+    font-size: 20px;
+    height: 30px;
+    color: #f0f0f5;
+    font-family: Garamond, "Times New Roman", serif;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.inputstyle input[type=submit] {
+    padding: 2px;
+    height: 35px;
+    font-size: 24px;
+    border-radius: 8px;
+    background-color:#730099;
+    color: #f0f0f5;
+    font-family: Garamond, "Times New Roman", serif;
+    margin-bottom: 10px;
+}
+
+.inputstyle input[type=submit]:hover {
+    background-color:#380B61;
+}
+
+#formadd {
+    margin-bottom: 2em;
+    width: 50%;
+    float: left;
+    overflow: auto;
+    font-family: Garamond, "Times New Roman", serif;
+    font-size: 26px;
+    text-align: left;
+    color: #380B61;
+}
+
+#formsearch {
+    margin-bottom: 2em;
+    width: 50%;
+    float: right;
+    overflow: auto;
+    font-family: Garamond, "Times New Roman", serif;
+    font-size: 26px;
+    text-align: left;
+    color: #380B61;
+}
+    
+#error {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f0f0f5;
+    border: solid 10px #f0f0f5;
+    font-family: Garamond, "Times New Roman", serif;
+    font-size: 26px;
+    text-align: left;
+    color: #990000;
+}
+
+#success {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f0f0f5;
+    border: solid 10px #f0f0f5;
+    font-family: Garamond, "Times New Roman", serif;
+    font-size: 26px;
+    text-align: left;
+    color: #004d00;
+}
+
+#tabletitle {
+    border: solid 10px #380B61;
+    font-family: Garamond, "Times New Roman", serif;
+    font-size: 28px;
+    text-align: center;
+    color: #f0f0f5;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: #380B61;
+}
+
+/* Search result style */
+.content {
+    border: solid 10px #f0f0f5;
+    margin-bottom: 2em;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f0f0f5;
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.content img {
+    height: 500px;
+    width: 360px;
+    border: solid 20px #380B61;
+    float: left;
+    margin-right: 2em;
+    margin-left: 1em;
+}
+
+.content span {
+    font-family: Garamond, "Times New Roman", serif;
+    font-size: 26px;
+    text-align: right;
+    color: #380B61;
+}
+
+.content a {
+    color: #730099;
+    text-decoration: none;
+}
+
+.content a:hover {
+    color: #E2A9F3;
+}
+
+/*Footer styling */
+#footer {
+    background-color: #380B61;
+    font-family: Garamond, "Times New Roman", serif;
+    font-size: 20px;
+    color: #E2A9F3;
+    width: 80%;
+    border: solid 10px #380B61;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#footer a{
+    font-family: Garamond, "Times New Roman", serif;
+    font-size: 20px;
+    color: #d1d1e0;
+    text-decoration: none;
+}
+    
+    
+    
